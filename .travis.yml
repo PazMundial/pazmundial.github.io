@@ -3,10 +3,12 @@ cache: bundler
 rvm: 2.1
 
 install:
-  # Install Jekyll and dependencies
   - bundle install
 
-script: bundle exec rake site:deploy --quiet
+script:
+  - bundle exec jekyll build
+  - bundle exec jekyll serve
+  - bundle exec jekyll serve --watch
 
 env:
   global:
