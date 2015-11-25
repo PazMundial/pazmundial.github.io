@@ -1,11 +1,6 @@
 source 'https://rubygems.org'
 
-require 'json'
-require 'open-uri'
-versions = JSON.parse(open('https://pages.github.com/versions.json').read)
-
-gem 'github-pages', versions['github-pages']
-
-# Styling
+gem 'rake', '~> 10.4'
+gem 'github-pages', '~> 39'
 gem 'bourbon'
 gem 'neat'
