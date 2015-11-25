@@ -3,32 +3,34 @@
 ---
 @charset "utf-8";
 
+// variables - fonts
 
-
-// Our variables
-$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-sans-serif:  "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-serif:       "Signika", Georgia, "Times New Roman", Times, serif;
 $base-font-size:   16px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
-$spacing-unit:     30px;
+// variables - colors
 
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+$brand-color:       #2a7ae2;
+$main-color:        #7f8c97; // main text
+$text-color:        #222222;
+$link-color:        #acb7c0; // anchor tags
+$background-color:  #e9f0f5; // body background color
 
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
+$color-1: #303e49; // blue dark
+$color-2: #c03b44; // red
+$color-3: #ffffff; // white
+$color-4: #75ce66; // green
+$color-5: #f0ca45; // yellow
 
-// Width of the content area
-$content-width:    800px;
+// layout - breakpoints
 
-$on-palm:          600px;
-$on-laptop:        800px;
-
-
+$S:     320px;
+$M:     768px;
+$L:     1170px;
 
 // Use media queries like this:
 // @include media-query($on-palm) {
@@ -43,11 +45,5 @@ $on-laptop:        800px;
     }
 }
 
-
-
-// Import partials from `sass_dir` (defaults to `_sass`)
-@import
-        "base",
-        "layout",
-        "syntax-highlighting"
-;
+@import "bourbon";
+@import "base", "mixin", "timeline";

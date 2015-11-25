@@ -6,16 +6,13 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+title: Gran Maratón de Tertulias por la Paz
+description: > # Objetivos de la maratón es hablar de temas apoyando la paz mundial que es la resolución de conflictos para que cohabitamos en armonía y felicidad en la creación.
+  Habrá una multitud de temas y dar la oportunidad a las personas de que se sumen a las tertulias abiertas y que todos expresen su parecer.
+  168 horas donde pueden entrar 10 personas simultáneamente e ir rotando para que todos puedan dar su opinión y seguir difundiendo esta iniciativa de paz.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "http://pazmundial.github.io" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
+gems: [bourbon, neat]

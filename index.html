@@ -1,23 +1,28 @@
 ---
 layout: default
 ---
+<section id="cd-timeline" class="cd-container">
 
-<div class="home">
+  {% assign sorted_posts = (site.posts | sort: 'order_post') %}
+  {% for post in sorted_posts %}
 
-  <h1 class="page-heading">Posts</h1>
+    <div class="cd-timeline-block">
+      <div class="cd-timeline-img cd-picture">
+        <img src="{{ post.author.avatar }}" alt="Picture">
+      </div> <!-- cd-timeline-img -->
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+      <div class="cd-timeline-content">
+        {% if post.public_participation == true %}
+          <img src="{{ "/images/star.png" | prepend: site.baseurl }}" class="star" alt="El público puede acceder al directo para participar" title="El público puede acceder al directo para participar" />
+        {% endif %}
+        <h2 class="title">Directo de {{ post.author.name }}</h2>
+        <p>{{ post.content }}</p>
+        <a href="{{ post.schedule.international }}" target="_blank" class="cd-read-more">Horario international</a>
+        <div class="g-ytsubscribe" data-channelid="{{ post.author.yt_channel }}" data-layout="full" data-count="hidden"></div>
+        <span class="cd-date">{{ post.schedule.in_spain | date: "%d %b %Y %H:%M" }} <small>CET</small></span>
+      </div> <!-- cd-timeline-content -->
+    </div> <!-- cd-timeline-block -->
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+  {% endfor %}
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+</section> <!-- cd-timeline -->
