@@ -1,6 +1,14 @@
 language: ruby
-cache: bundler
-sudo: false
-rvm: 2.1
-before_script:
-  - jekyll build --trace
+
+install:
+  # Install Jekyll and dependencies
+  - bundle install
+
+script: bundle exec rake site:deploy --quiet
+
+env:
+  global:
+    secure: "Y50XYPF//jjmPYJVHl4ZPCJb9lxurcNZdUlLH9T859J2AbPOrM/rQe1tBWrcE1RXqTRgrFNjsOuoRPc17CkKBNB6qQ8XTQSOYKiMK9jzGNj08e8eP57M0wiRyUfw2Nk0xal6la0ahiR7DrWHAEL5leVer/2E9jFpzXPJ0gqxw5w8cqk
+LHb+Zd7fF7255zJSTA0uHo/u0rzBG9LgeQtwUL8dvwL2q9sDB+VWjeWz8xrfdXbtHyi18QgDebvT9cYIOVpUJFj4cuj5rNsnHNfK7GfKW09E7hdIEyX7zCPl92ZAmhiNU/B21xUfgd+aENWmcx6XdRfFiAz/ABRIlXO2GJC/TbYA4YAIDtcK1KSMwm
+toOwWlHy5mb1lk0CW3giI8q+k2OtrAoS/FB/987SgLnWMV7ja3iVd9D5P4xDJW6Fo+tuNGXkBDajHTzVRr7x9IjfjGuxYYW6BjPqHrL0TAsyc/3TEz1nSkJPbqjZG9BCDt01E23Imclu721ZUxWcBvNJURqDmybiAQgp5VyHn7pZnTRXNfz6M9C36H
+dAyLxIXV49YopP9CIzdU7c8wVsnsO9Zs5TKDVmYFSilwg9mge4bnzYfxVMTZbwxWS9sN+EjHYs8EnfMY9gjtcXU298PmA3lLB6FkvjLIMrHARTO74EMURmJHSHGjh47AbY69r4o8="
