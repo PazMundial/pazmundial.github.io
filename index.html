@@ -18,7 +18,9 @@ layout: default
         <h2 class="title">Directo de {{ post.author.name }}</h2>
         <p>{{ post.content }}</p>
         <a href="{{ post.schedule.international }}" target="_blank" class="cd-read-more">Horario international</a>
-        <div class="g-ytsubscribe" data-channelid="{{ post.author.yt_channel }}" data-layout="full" data-count="hidden"></div>
+        <div class="cd-youtube">
+          <div class="g-ytsubscribe" data-channelid="{{ post.author.yt_channel }}" data-layout="full" data-count="hidden"></div>
+        </div>
         <span class="cd-date">{{ post.schedule.in_spain | date: "%d %b %Y %H:%M" }} <small>CET</small></span>
       </div> <!-- cd-timeline-content -->
     </div> <!-- cd-timeline-block -->
