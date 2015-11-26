@@ -11,3 +11,8 @@ schedule:
 categories:
 public_participation: false
 ---
+La primera parte del directo empezaremos entrevistando al invitado especial.
+
+> Invitado especial: [**Uriel García**](https://www.youtube.com/user/zonadeinvestigacion2?&ab_channel=ZONADEINVESTIGACI%C3%93N)
+
+En la segunda parte del directo, hablaremos de diversos temas.

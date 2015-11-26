@@ -11,6 +11,13 @@ schedule:
 categories: relato-sobre-el-movimiento tema-libre
 public_participation: false
 ---
-Y este sera el ultimo directo del movimiento. Hablaremos de como fue la semana.
+Y este sera el ultimo directo del movimiento.
 
-Tambien intentaremos recopilar los datos mas destacados de la semana entre otras cosas.
+La primera parte del directo empezaremos entrevistando al invitado especial.
+
+> Invitado especial: **Antonio Muñoz**
+
+Hablaremos de como fue la semana. También intentaremos recopilar los datos mas
+destacados de la semana entre otras cosas.
+
+Por ultimo si hay tiempo abriremos algunos temas.
