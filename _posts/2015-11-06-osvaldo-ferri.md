@@ -11,3 +11,5 @@ schedule:
 categories:
 public_participation: true
 ---
+Vamos a montar un taller en directo y gratuito para para ejercitarnos en la
+redacción de una constitución.
