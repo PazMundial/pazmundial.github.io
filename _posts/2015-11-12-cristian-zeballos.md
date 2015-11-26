@@ -11,3 +11,4 @@ schedule:
 categories:
 public_participation: false
 ---
+El tema del directo sera "Humanizar la Tierra".
