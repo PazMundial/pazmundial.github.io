@@ -6,7 +6,7 @@ author:
   avatar: https://yt3.ggpht.com/-nkg2dx85LK8/AAAAAAAAAAI/AAAAAAAAAAA/LIP3NH_7TY0/s88-c-k-no/photo.jpg
   yt_channel: UCNcq3yQUZIL9jqYesEq0xiA
 schedule:
-  in_spain: 2015-12-08 13:30:00 +0100
+  in_spain: 2015-12-08 13:30:00 +0000
   international: http://bit.ly/Horario-SoledadWhite
 categories: relato-sobre-el-movimiento lectura
 public_participation: false
