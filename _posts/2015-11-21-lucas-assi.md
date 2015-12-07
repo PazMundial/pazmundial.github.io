@@ -9,5 +9,6 @@ schedule:
   in_spain: 2015-12-12 06:00:00 +0000
   international: http://bit.ly/Horario-LucasAssi4
 categories:
-public_participation: true
+public_participation: false
 ---
+Hablaremos del proyecto que queremos empezar llamado "We Are Citizens!".
