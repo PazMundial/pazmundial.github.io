@@ -11,3 +11,4 @@ schedule:
 categories:
 public_participation: true
 ---
+Este directo seguiremos la dinamica de dejar entrar a la gente que quiera participar en el directo, para exponer un tema y comentarlo con los otros participantes.
