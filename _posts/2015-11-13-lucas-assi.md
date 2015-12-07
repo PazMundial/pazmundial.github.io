@@ -9,6 +9,6 @@ schedule:
   in_spain: 2015-12-10 03:00:00 +0000
   international: http://bit.ly/Horario-LucasAssi3
 categories:
-public_participation: true
+public_participation: false
 ---
-Este directo seguiremos la dinamica de dejar entrar a la gente que quiera participar en el directo, para exponer un tema y comentarlo con los otros participantes.
+Hablaremos del proyecto que queremos empezar llamado "We Are Citizens!".
