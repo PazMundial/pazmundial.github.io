@@ -13,6 +13,6 @@ public_participation: false
 ---
 La primera parte del directo empezaremos entrevistando al invitado especial.
 
-> Invitado especial: [* Maria del Carmen**](https://www.youtube.com/channel/UCJPuMBR7YVh-d4vLICSZuZA)
+> Invitado especial: [**Maria del Carmen**](https://www.youtube.com/channel/UCJPuMBR7YVh-d4vLICSZuZA)
 
 En la segunda parte del directo, hablaremos de diversos temas.
