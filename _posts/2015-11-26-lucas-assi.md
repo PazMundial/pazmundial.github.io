@@ -1,14 +1,14 @@
 ---
 layout: post
-order_post: 263
+order_post: 260
 author:
-  name: Lucas Assi (Paz Mundial)
-  avatar: https://yt3.ggpht.com/-wd4esRXXszo/AAAAAAAAAAI/AAAAAAAAAAA/j1eRnRV536g/s88-c-k-no/photo.jpg
-  yt_channel: UCfD4GnjiRM557agV_lAqI1Q
+  name: Gonzalo
+  avatar: https://yt3.ggpht.com/-d8CAhB1p8yM/AAAAAAAAAAI/AAAAAAAAAAA/yB7Yue1TjKE/s88-c-k-no/photo.jpg
+  yt_channel: UCeyNeOTyARtPEjVAXCQM5pg
 schedule:
-  in_spain: 2015-12-13 19:00:00 +0000
-  international: http://bit.ly/Horario-LucasAssi5
+  in_spain: 2015-12-13 17:00:00 +0000
+  international: http://bit.ly/Horario-Gonz
 categories:
 public_participation: true
 ---
-Veni a Responder **¿Porque no se logra la paz?**
+Este sera mi segundo directo y sera de la misma tematica que el primero, es decir de temas libres.
