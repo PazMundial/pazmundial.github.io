@@ -9,6 +9,6 @@ schedule:
   in_spain: 2015-12-12 06:00:00 +0000
   international: http://bit.ly/Horario-LucasAssi4
 categories:
-public_participation: false
+public_participation: true
 ---
 Este directo seguiremos la dinamica de dejar entrar a la gente que quiera participar en el directo, para exponer un tema y comentarlo con los otros participantes.
