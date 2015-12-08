@@ -13,3 +13,5 @@ public_participation: true
 ---
 Vamos a montar un taller en directo y gratuito para para ejercitarnos en la
 redacción de una constitución.
+
+<iframe width="475" height="267" src="https://www.youtube.com/embed/videoseries?list=PLNGZ177MjKUqIc48E4a-T1iEA9xeE5c7F" frameborder="0" allowfullscreen></iframe>
