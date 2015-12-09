@@ -15,3 +15,5 @@ Primero yo Lucas Assi empezare por dar un pequeño discurso sobre este movimient
 
 Todo seguido seguiremos el directo dejando entrar a la gente que quiera participar
 en el directo, para exponer un tema y comentarlo con los otros participantes.
+
+<iframe width="475" height="267" src="https://www.youtube.com/embed/4xyqsxb1YEY" frameborder="0" allowfullscreen></iframe>
