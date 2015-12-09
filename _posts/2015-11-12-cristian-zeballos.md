@@ -12,3 +12,5 @@ categories:
 public_participation: false
 ---
 El tema del directo sera "Humanizar la Tierra".
+
+<iframe width="475" height="267" src="https://www.youtube.com/embed/LzpRRysc-aY" frameborder="0" allowfullscreen></iframe>
