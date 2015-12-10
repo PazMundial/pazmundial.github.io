@@ -9,5 +9,5 @@ schedule:
   in_spain: 2015-12-13 14:00:00 +0000
   international: http://bit.ly/Horario-MariaCar
 categories:
-public_participation: false
+public_participation: true
 ---
