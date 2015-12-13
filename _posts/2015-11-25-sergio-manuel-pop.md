@@ -12,3 +12,5 @@ categories: tema-libre
 public_participation: true
 ---
 Durante el directo os mostrare una tecnica de corte para entrar en coherencia.
+
+<iframe width="475" height="267" src="https://www.youtube.com/embed/e-NQyGOd7XA" frameborder="0" allowfullscreen></iframe>
