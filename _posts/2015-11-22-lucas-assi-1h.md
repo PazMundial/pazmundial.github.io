@@ -12,3 +12,5 @@ categories:
 public_participation: false
 ---
 Hablaremos del proyecto que queremos empezar llamado "We Are Citizens!".
+
+<iframe width="475" height="267" src="https://www.youtube.com/embed/Jc8nZ87tntY" frameborder="0" allowfullscreen></iframe>
