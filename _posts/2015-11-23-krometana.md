@@ -12,3 +12,5 @@ categories: tema-libre
 public_participation: false
 ---
 Expondremos varios temas durante el transcurso del directo.
+
+<iframe width="475" height="267" src="https://www.youtube.com/embed/RyCnIJxi6dg" frameborder="0" allowfullscreen></iframe>
