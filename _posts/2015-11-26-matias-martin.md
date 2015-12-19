@@ -16,3 +16,5 @@ En esta emisión estudiaremos cómo el poder utiliza los conocimientos de la psi
 Cómo aquello que se sabe necesario para el crecimiento sano de un ser humano se invierte, creando una vida pensada para impedir el desarrollo individual y social.
 
 También estudiaremos los medios para liberarse de ese control. A cargo del Lic. Matías Martín, Psicologo y psicodramatista.
+
+<iframe width="475" height="267" src="https://www.youtube.com/embed/jQBR1MFs5Bs" frameborder="0" allowfullscreen></iframe>
