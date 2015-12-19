@@ -21,3 +21,5 @@ Hablaremos de como fue la semana. También intentaremos recopilar los datos mas
 destacados de la semana entre otras cosas.
 
 Por ultimo si hay tiempo abriremos algunos temas.
+
+<iframe width="475" height="267" src="https://www.youtube.com/embed/videoseries?list=PLf1Ri7JglaAG8rybUOPNO-F_drrd5NmbU" frameborder="0" allowfullscreen></iframe>
