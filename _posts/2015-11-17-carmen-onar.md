@@ -10,8 +10,9 @@ schedule:
   international: http://bit.ly/Horario-CarmenOnar
 categories:
 public_participation: false
+marathon: 2015
 ---
 En el directo hablaremos de las festividades, el consumismo y la manipulación
 de la navidad.
 
-**NOTA**: Problemas tecnicos con el video, cuando lo tengamos solucionado lo subimos.
+**NOTA**: Problemas tecnicos con el video, lo sentimos.

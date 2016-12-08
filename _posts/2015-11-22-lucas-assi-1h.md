@@ -10,6 +10,7 @@ schedule:
   international: http://bit.ly/Horario-LucasAssi6
 categories:
 public_participation: false
+marathon: 2015
 ---
 Hablaremos del proyecto que queremos empezar llamado "We Are Citizens!".
 

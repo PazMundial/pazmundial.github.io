@@ -10,6 +10,7 @@ schedule:
   international: http://bit.ly/Horario-SoledadWhite
 categories: relato-sobre-el-movimiento lectura
 public_participation: false
+marathon: 2015
 ---
 Empezare el directo relatando un relato de paz, escrito por mi Soledad White.
 

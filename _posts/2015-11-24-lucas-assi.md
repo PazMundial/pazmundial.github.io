@@ -10,6 +10,7 @@ schedule:
   international: http://bit.ly/Horario-LucasAssi7
 categories: tema-libre
 public_participation: true
+marathon: 2015
 ---
 Temas libres. Ven y participa.
 

@@ -10,6 +10,7 @@ schedule:
   international: http://bit.ly/Horario-CristianZeballos
 categories:
 public_participation: false
+marathon: 2015
 ---
 El tema del directo sera "Humanizar la Tierra".
 

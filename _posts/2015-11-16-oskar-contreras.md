@@ -10,6 +10,7 @@ schedule:
   international: http://bit.ly/Horario-Oskars
 categories:
 public_participation: true
+marathon: 2015
 ---
 Hablaremos de varios temas.
 

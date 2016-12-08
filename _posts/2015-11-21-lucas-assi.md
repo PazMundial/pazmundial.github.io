@@ -10,6 +10,7 @@ schedule:
   international: http://bit.ly/Horario-LucasAssi4
 categories:
 public_participation: true
+marathon: 2015
 ---
 Este directo seguiremos la dinamica de dejar entrar a la gente que quiera participar en el directo, para exponer un tema y comentarlo con los otros participantes.
 

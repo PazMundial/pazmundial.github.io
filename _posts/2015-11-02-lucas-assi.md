@@ -10,6 +10,8 @@ schedule:
   international: http://bit.ly/Horario-LucasAssi
 categories: relato-sobre-el-movimiento tema-libre
 public_participation: true
+marathon: 2015
+marathon: 2015
 ---
 Primero yo Lucas Assi empezare por dar un pequeño discurso sobre este movimiento.
 

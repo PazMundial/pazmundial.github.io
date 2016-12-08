@@ -10,6 +10,7 @@ schedule:
   international: http://bit.ly/Horario-Krome2
 categories: tema-libre
 public_participation: false
+marathon: 2015
 ---
 Expondremos varios temas durante el transcurso del directo.
 

@@ -10,6 +10,7 @@ schedule:
   international: http://bit.ly/Horario-Osvaldo
 categories:
 public_participation: true
+marathon: 2015
 ---
 Vamos a montar un taller en directo y gratuito para para ejercitarnos en la
 redacción de una constitución.

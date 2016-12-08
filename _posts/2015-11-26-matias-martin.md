@@ -10,6 +10,7 @@ schedule:
   international: http://bit.ly/Horario-MatiasMartin2
 categories: tema-libre
 public_participation: true
+marathon: 2015
 ---
 En esta emisión estudiaremos cómo el poder utiliza los conocimientos de la psicologia individual y social para mantener a la población en un estado permanente de alienación, conflicto y sufrimiento.
 

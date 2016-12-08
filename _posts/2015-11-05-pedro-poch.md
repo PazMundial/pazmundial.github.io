@@ -10,5 +10,6 @@ schedule:
   international: http://bit.ly/Horario-PedroPoch
 categories:
 public_participation: false
+marathon: 2015
 ---
 <iframe width="475" height="267" src="https://www.youtube.com/embed/6XJXAjZXJRI" frameborder="0" allowfullscreen></iframe>

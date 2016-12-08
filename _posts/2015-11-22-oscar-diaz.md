@@ -10,6 +10,7 @@ schedule:
   international: http://bit.ly/Horario-OscarDiaz
 categories:
 public_participation: true
+marathon: 2015
 ---
 En el directo vamos a trata los temas:
 

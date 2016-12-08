@@ -10,6 +10,7 @@ schedule:
   international: http://bit.ly/Horario-Sergio
 categories: tema-libre
 public_participation: true
+marathon: 2015
 ---
 Durante el directo os mostrare una tecnica de corte para entrar en coherencia.
 

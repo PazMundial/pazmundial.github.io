@@ -10,6 +10,7 @@ schedule:
   international: http://bit.ly/Horario-ThomasKlauss
 categories:
 public_participation: false
+marathon: 2015
 ---
 La primera parte del directo empezaremos entrevistando al invitado especial.
 

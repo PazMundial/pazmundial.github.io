@@ -10,6 +10,7 @@ schedule:
   international: http://bit.ly/Horario-Thomass2
 categories: relato-sobre-el-movimiento tema-libre
 public_participation: false
+marathon: 2015
 ---
 Y este sera el ultimo directo del movimiento.
 

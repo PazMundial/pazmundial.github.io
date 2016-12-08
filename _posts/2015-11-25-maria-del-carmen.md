@@ -10,6 +10,7 @@ schedule:
   international: http://bit.ly/Horario-MariaCar
 categories:
 public_participation: true
+marathon: 2015
 ---
 
 <iframe width="475" height="267" src="https://www.youtube.com/embed/S4Z03qb1imA" frameborder="0" allowfullscreen></iframe>
