@@ -26,8 +26,7 @@ Main components
 
 #cd-timeline {
   position: relative;
-  padding: 2em 0;
-  margin: {
+  padding: {
     top: 2em;
     bottom: 2em;
   }
@@ -44,7 +43,7 @@ Main components
   }
 
   @include MQ(L) {
-    margin: {
+    padding: {
       top: 3em;
       bottom: 3em;
     }
@@ -198,7 +197,7 @@ Main components
   .cd-date {
     float: left;
     padding: .8em 0;
-    opacity: .7;
+    width: inherit;
   }
 
   &::before {
@@ -244,10 +243,17 @@ Main components
 
     .cd-date {
       position: absolute;
-      width: 100%;
-      left: 122%;
+      left: 116%;
       top: 6px;
       @include font-size(16px);
+      z-index: -1;
+      background-color: #fff;
+      padding: 10px 20px;
+      margin-top: 3px;
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+      border-top-right-radius: 20px;
+      border-bottom-right-radius: 20px;
     }
 
     .cd-timeline-block:nth-child(even) & {
@@ -273,6 +279,11 @@ Main components
         left: auto;
         right: 122%;
         text-align: right;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        right: 116%;
       }
     }
 
