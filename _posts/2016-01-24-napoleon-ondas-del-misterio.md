@@ -12,4 +12,11 @@ categories:
 public_participation: false
 marathon: 2017
 ---
-<!--iframe width="475" height="267" src="https://www.youtube.com/embed/MISSING" frameborder="0" allowfullscreen></iframe-->
+Estos son los temas que vamos a tratar:
+
+- Historia del hackeo
+- Ataque ciberneticos
+- Formas de hackeos
+- Virus y la Matrix
+
+<iframe width="475" height="267" src="https://www.youtube.com/embed/6DMRMeyHHns" frameborder="0" allowfullscreen></iframe>
