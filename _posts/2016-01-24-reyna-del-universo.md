@@ -12,4 +12,6 @@ categories:
 public_participation: false
 marathon: 2017
 ---
+Vamos a tratar de concientizar a las personas del mundo entero, la importancia que tiene el amor a los demás.
+
 <iframe width="475" height="267" src="https://www.youtube.com/embed/pGdHBxY4PO0" frameborder="0" allowfullscreen></iframe>

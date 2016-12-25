@@ -12,4 +12,6 @@ categories:
 public_participation: false
 marathon: 2017
 ---
+Vamos a intentar hacer comprender a las personas la importancia que tiene en la vida diaria, la NO violencia familiar.
+
 <iframe width="475" height="267" src="https://www.youtube.com/embed/OF_tE2E7h2E" frameborder="0" allowfullscreen></iframe>

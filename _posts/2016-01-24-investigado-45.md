@@ -12,4 +12,6 @@ categories:
 public_participation: false
 marathon: 2017
 ---
+Daremos una charla de posibles soluciones para poder lograr la Paz en el hogar, en el estados y en mundo entero.
+
 <iframe width="475" height="267" src="https://www.youtube.com/embed/5oR7OfjKFAU" frameborder="0" allowfullscreen></iframe>

@@ -12,4 +12,6 @@ categories:
 public_participation: false
 marathon: 2017
 ---
+Vamos a numerar los valores perdidos de la sociedad y también vamos a proponer retomar estos.
+
 <iframe width="475" height="267" src="https://www.youtube.com/embed/v_TQNAaP62s" frameborder="0" allowfullscreen></iframe>
