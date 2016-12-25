@@ -6,7 +6,7 @@ author:
   avatar: https://yt3.ggpht.com/-H-1GoAzWMms/AAAAAAAAAAI/AAAAAAAAAAA/QoPPwrlQSQg/s88-c-k-no/photo.jpg
   yt_channel: UCqTbDUJp6MFijenn_JZbbsA
 schedule:
-  in_spain: 2015-12-13 21:00:00 +0000
+  cet_time: 2015-12-13 21:00:00 +0000
   international: http://bit.ly/Horario-MatiasMartin2
 categories: tema-libre
 public_participation: true

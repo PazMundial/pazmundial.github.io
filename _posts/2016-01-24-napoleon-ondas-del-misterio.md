@@ -6,7 +6,7 @@ author:
   avatar: https://yt3.ggpht.com/-wEzmwnQolZc/AAAAAAAAAAI/AAAAAAAAAAA/rbynWE9BOws/s88-c-k-no-mo-rj-c0xffffff/photo.jpg
   yt_channel: UCfsnWQK5NvMd7pYebw9S8mw
 schedule:
-  in_spain: 2017-01-05 06:00:00 +0000
+  cet_time: 2017-01-05 06:00:00 +0000
   international: http://timeanddate.com/s/34sk
 categories:
 public_participation: false
