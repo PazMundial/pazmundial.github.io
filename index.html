@@ -15,6 +15,7 @@ layout: default
 
         <div class="cd-timeline-content">
           {% if post.public_participation == true %}
+            <span class="star-text">Participación Abierta</span>
             <img src="{{ "/images/star.png" | prepend: site.baseurl }}" class="star" alt="El público puede acceder al directo para participar" title="El público puede acceder al directo para participar" />
           {% endif %}
           <h2 class="title">Directo de {{ post.author.name }}</h2>
