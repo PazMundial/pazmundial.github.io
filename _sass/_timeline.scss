@@ -31,17 +31,6 @@ Main components
     bottom: 2em;
   }
 
-  &::before {
-    /* this is the vertical line */
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 18px;
-    height: 100%;
-    width: 4px;
-    background: darken($background-color, 5%);
-  }
-
   @include MQ(L) {
     padding: {
       top: 3em;
