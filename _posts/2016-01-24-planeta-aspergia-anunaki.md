@@ -12,4 +12,6 @@ categories:
 public_participation: false
 marathon: 2017
 ---
-<!--iframe width="475" height="267" src="https://www.youtube.com/embed/MISSING" frameborder="0" allowfullscreen></iframe-->
+Vamos a debatir varios temas de interés.
+
+<iframe width="475" height="267" src="https://www.youtube.com/embed/9C_PhP1AuEw" frameborder="0" allowfullscreen></iframe>

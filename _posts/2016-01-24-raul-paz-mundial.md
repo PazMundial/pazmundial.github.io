@@ -12,4 +12,8 @@ categories:
 public_participation: false
 marathon: 2017
 ---
-<!--iframe width="475" height="267" src="https://www.youtube.com/embed/MISSING" frameborder="0" allowfullscreen></iframe-->
+Tema a tratar:
+
+- La escritura como herramienta de poder.
+
+<iframe width="475" height="267" src="https://www.youtube.com/embed/0MKV5k2oVOs" frameborder="0" allowfullscreen></iframe>
