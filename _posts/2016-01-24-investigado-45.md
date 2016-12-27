@@ -2,7 +2,7 @@
 layout: post
 order_post: 30
 author:
-  name: Investigado 45
+  name: Roger Quintal
   avatar: https://yt3.ggpht.com/-abs_TUMi_Sk/AAAAAAAAAAI/AAAAAAAAAAA/r0bNiFyaKP0/s88-c-k-no-mo-rj-c0xffffff/photo.jpg
   yt_channel: UC2XmE19ts6khebOUZwB2k0g
 schedule:
