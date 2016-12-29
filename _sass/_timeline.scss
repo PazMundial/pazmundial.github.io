@@ -169,12 +169,12 @@ Main components
     }
   }
 
-  p, .cd-read-more, .cd-date {
+  p, .cd-read-more, .cd-date, .cd-participate {
     @include font-size(13px);
     margin-top: 8px;
   }
 
-  .cd-read-more, .cd-date {
+  .cd-read-more, .cd-date, .cd-participate {
     display: inline-block;
   }
 
@@ -186,12 +186,24 @@ Main components
   .cd-read-more {
     float: right;
     padding: .8em 1em;
-    background: $link-color;
+    background: $link-2-color;
     color: $color-3;
     @include border-radius;
 
     .no-touch &:hover {
-      background-color: lighten($link-color, 5%);
+      background-color: lighten($link-2-color, 5%);
+    }
+  }
+
+  .cd-participate {
+    float: right;
+    padding: .8em 1em;
+    background: $link-1-color;
+    color: $color-3;
+    @include border-radius;
+
+    .no-touch &:hover {
+      background-color: lighten($link-1-color, 5%);
     }
   }
 
@@ -221,7 +233,7 @@ Main components
       @include font-size(16px);
     }
 
-    .cd-read-more, .cd-date {
+    .cd-read-more, .cd-date, .cd-participate {
       @include font-size(14px);
     }
   }
@@ -240,6 +252,11 @@ Main components
 
     .cd-read-more {
       float: right;
+    }
+
+    .cd-participate {
+      float: right;
+      margin-right: 10px;
     }
 
     .cd-date {
@@ -270,6 +287,11 @@ Main components
 
       .cd-read-more {
         float: left;
+      }
+
+      .cd-participate {
+        float: left;
+        margin-left: 10px;
       }
 
       .cd-youtube {

@@ -10,6 +10,7 @@ schedule:
   international: http://timeanddate.com/s/34rh
 categories:
 public_participation: true
+public_hangout: Xl5NhxDD5bLOqeHiVdk1L_-52akiBI_s-W5Mu-XcSLc=
 marathon: 2017
 ---
 <iframe width="475" height="267" src="https://www.youtube.com/embed/EUCQaIlZ9mA" frameborder="0" allowfullscreen></iframe>
