@@ -31,6 +31,10 @@ Main components
     bottom: 2em;
   }
 
+  .cd-youtube {
+    min-height: 53px;
+  }
+
   @include MQ(L) {
     padding: {
       top: 3em;

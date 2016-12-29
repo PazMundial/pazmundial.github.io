@@ -12,4 +12,10 @@ categories:
 public_participation: false
 marathon: 2017
 ---
-<!--iframe width="475" height="267" src="https://www.youtube.com/embed/MISSING" frameborder="0" allowfullscreen></iframe-->
+Tendremos de invitada a Pilar Baselga.
+
+> <div class="cd-youtube">
+>   <div class="g-ytsubscribe" data-channelid="UC-r3_h3ntVUPUeO8rlDPryw" data-layout="full" data-count="hidden"></div>
+> </div>
+
+<iframe width="475" height="267" src="https://www.youtube.com/embed/cSSY61ikBqI" frameborder="0" allowfullscreen></iframe>
