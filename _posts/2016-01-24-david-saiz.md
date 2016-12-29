@@ -12,8 +12,4 @@ categories:
 public_participation: false
 marathon: 2017
 ---
-Tema a tratar:
-
-- La escritura como herramienta de poder.
-
-<iframe width="475" height="267" src="https://www.youtube.com/embed/0MKV5k2oVOs" frameborder="0" allowfullscreen></iframe>
+<iframe width="475" height="267" src="https://www.youtube.com/embed/ywfsASU3nxM" frameborder="0" allowfullscreen></iframe>
