@@ -12,4 +12,9 @@ categories:
 public_participation: false
 marathon: 2017
 ---
-<!--iframe width="475" height="267" src="https://www.youtube.com/embed/MISSING" frameborder="0" allowfullscreen></iframe-->
+Programa "Al Otro Lado del Espejo"
+
+Con la participación de Alex Robin, Thomas Klauss, Jose Jota Fernández, Tío Yesi,
+Suso Souto y los amigos de Al otro lado del Espejo.
+
+<iframe width="475" height="267" src="https://www.youtube.com/embed/8eMItW_dv20" frameborder="0" allowfullscreen></iframe>

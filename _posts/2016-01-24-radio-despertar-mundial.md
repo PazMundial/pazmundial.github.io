@@ -9,7 +9,12 @@ schedule:
   cet_time: 2017-01-02 14:00:00 +0000
   international: http://timeanddate.com/s/34r8
 categories:
-public_participation: false
+public_participation: true
+public_hangout: eennfl5fdncsfor42qmdyiibyue
 marathon: 2017
 ---
-<!--iframe width="475" height="267" src="https://www.youtube.com/embed/MISSING" frameborder="0" allowfullscreen></iframe-->
+Programa "Sube el Volumen", donde se tendrá invitados especiales.
+
+¡Les esperamos! ~ Liliana Ortuño y Marcelo.
+
+<iframe width="475" height="267" src="https://www.youtube.com/embed/oDen-nQ9-vk" frameborder="0" allowfullscreen></iframe-->

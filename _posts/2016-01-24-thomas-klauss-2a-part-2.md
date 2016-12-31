@@ -9,7 +9,7 @@ schedule:
   cet_time: 2017-01-04 01:00:00 +0000
   international: http://timeanddate.com/s/34w6
 categories:
-public_participation: true
+public_participation: false
 marathon: 2017
 ---
 Discutir, debatir y charlar de temas variados.
