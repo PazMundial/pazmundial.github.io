@@ -12,4 +12,16 @@ categories:
 public_participation: false
 marathon: 2017
 ---
+Temas:
+
+- Guerra Psicológica.
+- Guerra Psicotronica.
+- Sociedades secretas y rituales.
+- Tratado de blanca.
+- Cambios económicos.
+- NWO
+- Situación Actual Geopolitica.
+
+Todo relacionandolo a la experiencia que vivio Adalberto ( Ingeniero ) con el robo de su tecnologia ERP y el secuestro de su hija en San Antonio, Texas, EEUU.
+
 <iframe width="475" height="267" src="https://www.youtube.com/embed/6tp1J4RUdnE" frameborder="0" allowfullscreen></iframe>
