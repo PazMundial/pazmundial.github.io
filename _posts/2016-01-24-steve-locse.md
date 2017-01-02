@@ -12,4 +12,6 @@ categories:
 public_participation: false
 marathon: 2017
 ---
-<!--iframe width="475" height="267" src="https://www.youtube.com/embed/MISSING" frameborder="0" allowfullscreen></iframe-->
+En esta sesión hablaremos de aspectos psicológicos y fisiológicos que ocurren en el organismo con las frecuencias altas y las condiciones para poder mantenerlas.
+
+<iframe width="475" height="267" src="https://www.youtube.com/embed/nS4fNk-NgeM" frameborder="0" allowfullscreen></iframe>
