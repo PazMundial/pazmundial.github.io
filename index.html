@@ -28,7 +28,7 @@ layout: default
                 <i class="fa fa-video-camera" aria-hidden="true"></i> Participa
               </a>
             {% endif %}
-            {% if post.public_hangout %}
+            {% if post.author.yt_channel %}
               <div class="cd-youtube">
                 <div class="g-ytsubscribe" data-channelid="{{ post.author.yt_channel }}" data-layout="full" data-count="hidden"></div>
               </div>
