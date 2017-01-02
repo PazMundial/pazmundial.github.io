@@ -23,11 +23,6 @@ layout: default
             <h2 class="title">Directo de {{ post.author.name }}</h2>
             <p>{{ post.content }}</p>
             <a href="{{ post.schedule.international }}" target="_blank" class="cd-read-more">Horario international</a>
-            {% if post.public_hangout %}
-              <a href="https://hangouts.google.com/hangouts/_/{{ post.public_hangout }}?hl=es_ES" target="_blank" class="cd-participate">
-                <i class="fa fa-video-camera" aria-hidden="true"></i> Participa
-              </a>
-            {% endif %}
             {% if post.author.yt_channel %}
               <div class="cd-youtube">
                 <div class="g-ytsubscribe" data-channelid="{{ post.author.yt_channel }}" data-layout="full" data-count="hidden"></div>
