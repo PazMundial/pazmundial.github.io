@@ -13,4 +13,8 @@ public_participation: false
 public_hangout:
 marathon: 2017
 ---
-<!--iframe width="475" height="267" src="https://www.youtube.com/embed/MISSING" frameborder="0" allowfullscreen></iframe-->
+Tema: ¿Qué conforma nuestra vida?
+
+Una tertulia con motivo de la 2ª Gran Maratón por la Paz Mundial, en la que hablamos de que nos da forma como personas y seres espirituales.
+
+<iframe width="475" height="267" src="https://www.youtube.com/embed/_YIbELj_aQ8" frameborder="0" allowfullscreen></iframe>
