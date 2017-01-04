@@ -19,4 +19,4 @@ Temas que trataremos:
 - Las empresas y sus conexiones con las guerras.
 - Cómo despertar del letargo al que nos someten los medios de comunicación.
 
-<iframe width="475" height="267" src="https://www.youtube.com/embed/k9gfOhuQ2CM" frameborder="0" allowfullscreen></iframe>
+<iframe width="475" height="267" src="https://www.youtube.com/embed/yDQqlqa3SN4" frameborder="0" allowfullscreen></iframe>
