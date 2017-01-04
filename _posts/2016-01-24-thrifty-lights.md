@@ -13,6 +13,6 @@ public_participation: false
 public_hangout:
 marathon: 2017
 ---
-Tema: Numerologia transgeneracional al encuentro con tu paz por MARU y CRIS
+Tema: ¿Que esta ocurriendo en este cambio de conciencia? por Maru
 
-<iframe width="475" height="267" src="https://www.youtube.com/embed/5IO1zU05wgg" frameborder="0" allowfullscreen></iframe>
+<iframe width="475" height="267" src="https://www.youtube.com/embed/c5VTo5Ni_5E" frameborder="0" allowfullscreen></iframe>

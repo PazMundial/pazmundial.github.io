@@ -12,4 +12,5 @@ categories:
 public_participation: false
 marathon: 2017
 ---
-<!--iframe width="475" height="267" src="https://www.youtube.com/embed/MISSING" frameborder="0" allowfullscreen></iframe-->
+Tema: Todas las acciones que hay que poner en marcha para activar el cambio social y la paz mundial.
+<iframe width="475" height="267" src="https://www.youtube.com/embed/BjWgjmQHf0E" frameborder="0" allowfullscreen></iframe>
