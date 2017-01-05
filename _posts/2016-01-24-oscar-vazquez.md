@@ -13,3 +13,6 @@ public_participation: false
 marathon: 2017
 ---
 <iframe width="475" height="267" src="https://www.youtube.com/embed/LqWCnI8LvW8" frameborder="0" allowfullscreen></iframe>
+
+Parte 2:
+<iframe width="475" height="267" src="https://www.youtube.com/embed/55vF8cwaGb8" frameborder="0" allowfullscreen></iframe>
