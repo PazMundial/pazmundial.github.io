@@ -12,4 +12,6 @@ categories:
 public_participation: false
 marathon: 2017
 ---
-<!--iframe width="475" height="267" src="https://www.youtube.com/embed/https://youtu.be/MISSING" frameborder="0" allowfullscreen></iframe-->
+Tema: Sistema educativo, ¿como de difícil es hacer una educación de calidad y guay?
+
+<iframe width="475" height="267" src="https://www.youtube.com/embed/yB-JssFQMYU" frameborder="0" allowfullscreen></iframe>

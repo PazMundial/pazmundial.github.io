@@ -12,4 +12,12 @@ categories:
 public_participation: false
 marathon: 2017
 ---
-<!--iframe width="475" height="267" src="https://www.youtube.com/embed/MISSING" frameborder="0" allowfullscreen></iframe-->
+Temas:
+
+- Los profetas
+- Las profecías
+- La situación del Sol y las posibilidades de una llamarada
+- El planeta Nibiru
+- La Ascensión a 5 dimensión
+
+<iframe width="475" height="267" src="https://www.youtube.com/embed/v2DcUiqtEZg" frameborder="0" allowfullscreen></iframe>
