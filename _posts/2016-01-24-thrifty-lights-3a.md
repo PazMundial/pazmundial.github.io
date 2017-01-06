@@ -13,4 +13,8 @@ public_participation: false
 public_hangout:
 marathon: 2017
 ---
-<!--iframe width="475" height="267" src="https://www.youtube.com/embed/MISSING" frameborder="0" allowfullscreen></iframe-->
+Hola en esta emision Christian nos estara hablando sobre;
+la importancia de entender la interacción entre nuestras construcciones y hábitats humanos con el terreno sobre el cual están asentados y aprenderemos a equilibrar esta relación.
+Para tener un hábitat humano en paz con su entorno necesitamos tomar en cuenta el mismo en todas sus facetas, para que la tierra nos respete nosotros tenemos que respetar a la tierra y entenderla.
+
+<iframe width="475" height="267" src="https://www.youtube.com/embed/Ou5-A2AiNmU" frameborder="0" allowfullscreen></iframe>

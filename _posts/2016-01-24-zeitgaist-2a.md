@@ -2,7 +2,7 @@
 layout: post
 order_post: 550
 author:
-  name: Zeitgaist
+  name: Zieigueist TX
   avatar: https://yt3.ggpht.com/-wd4esRXXszo/AAAAAAAAAAI/AAAAAAAAAAA/j1eRnRV536g/s100-c-k-no-mo-rj-c0xffffff/photo.jpg
   yt_channel: UCfD4GnjiRM557agV_lAqI1Q
 schedule:
@@ -12,4 +12,6 @@ categories:
 public_participation: false
 marathon: 2017
 ---
-<!--iframe width="475" height="267" src="https://www.youtube.com/embed/MISSING" frameborder="0" allowfullscreen></iframe-->
+Tema: Alternativas para el cambio y la paz mundial
+
+<iframe width="475" height="267" src="https://www.youtube.com/embed/ehxZ2Eq9HyA" frameborder="0" allowfullscreen></iframe>

@@ -12,4 +12,6 @@ categories:
 public_participation: false
 marathon: 2017
 ---
+Tema: Mecanismos de control social por Jorge Guerra y Jorge Zamora
+
 <iframe width="475" height="267" src="https://www.youtube.com/embed/-AzKimoXrfk" frameborder="0" allowfullscreen></iframe>

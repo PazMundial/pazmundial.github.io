@@ -2,7 +2,7 @@
 layout: post
 order_post: 520
 author:
-  name: Playlist Paz Mundial
+  name: Paz Mundial
   avatar: https://yt3.ggpht.com/-wd4esRXXszo/AAAAAAAAAAI/AAAAAAAAAAA/j1eRnRV536g/s100-c-k-no-mo-rj-c0xffffff/photo.jpg
   yt_channel: UCfD4GnjiRM557agV_lAqI1Q
 schedule:
@@ -12,4 +12,6 @@ categories:
 public_participation: false
 marathon: 2017
 ---
-<!--iframe width="475" height="267" src="https://www.youtube.com/embed/MISSING" frameborder="0" allowfullscreen></iframe-->
+Recopilatorio en el canal Paz Mundial.
+
+<iframe width="475" height="267" src="https://www.youtube.com/embed/W0HfUdnWcFo" frameborder="0" allowfullscreen></iframe>
