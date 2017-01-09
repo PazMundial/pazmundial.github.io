@@ -9,7 +9,7 @@ schedule:
   cet_time: 2017-01-06 22:00:00 +0000
   international: http://timeanddate.com/s/355y
 categories:
-public_participation: false
+public_participation: false s
 marathon: 2017
 ---
 <iframe width="475" height="267" src="https://www.youtube.com/embed/s67BYPUpJm4" frameborder="0" allowfullscreen></iframe>
