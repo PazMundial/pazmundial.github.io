@@ -68,6 +68,9 @@ loadDataOfGoogleSpreadsheets = (spreadsheetId) ->
       host_name = row[3]
       return unless host_name?
 
+      youtube_broadcast_id = row[7]
+      return unless youtube_broadcast_id?
+
       event_datetime_formated =
         moment(event_date_cet + ' ' + event_time_cet + ' +1:00', 'DD/MM/YYYY HH:mm Z', 'es')
           .tz($.urlParam('tz', 'Europe/Madrid'))
@@ -76,8 +79,6 @@ loadDataOfGoogleSpreadsheets = (spreadsheetId) ->
       international_datetime_link = row[4]
       participate_link = row[5]
       youtube_channel_link = row[6]
-      youtube_broadcast_id = row[7]
-
 
       $carusel.append(
         """
@@ -85,9 +86,16 @@ loadDataOfGoogleSpreadsheets = (spreadsheetId) ->
           <div class="row event-details margin-10">
             <div class="col-sm-6 text-left">
               <span class="event-host-name">Dirigido por #{host_name}</span>
-              <a class="event-host-youtube-channel" href="#{youtube_channel_link}" target="_blank">
-                <i class="fa fa-youtube"></i>
-              </a>
+              #{
+                if youtube_channel_link != ''
+                  """
+                  <a class="event-host-youtube-channel" href="#{youtube_channel_link}" target="_blank">
+                    <i class="fa fa-youtube"></i>
+                  </a>
+                  """
+                else
+                  ''
+              }
             </div>
             <div class="col-sm-6 text-right">
               <span class="event-time-cet">#{event_datetime_formated}</span>
