@@ -1,19 +1,28 @@
-<head>
+<html lang="en"><head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="keywords" content="">
+  <link rel="shortcut icon" type="image/x-icon" href="{{ '/assets/images/favicon.ico' | prepend: site.baseurl }}">
 
-  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-  <link rel="icon" type="image/png" href="{{ "/images/favicon.png" | prepend: site.baseurl }}">
-  <link rel="shortcut icon" type="image/x-icon" href="{{ "/images/favicon.ico" | prepend: site.baseurl }}">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
-  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,700italic,400italic|Signika:400,700" rel="stylesheet" type="text/css">
-  <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-  <![endif]-->
+  <!-- <meta property="og:title" content=""> -->
+  <!-- <meta property="og:type" content="website"> -->
+  <!-- <meta property="og:url" content=""> -->
+  <!-- <meta property="og:site_name" content=""> -->
+  <!-- <meta property="og:description" content=""> -->
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="{{ '/assets/stylesheets/font-awesome.min.css' | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ '/assets/stylesheets/animate.css' | prepend: site.baseurl }}">
+  <link href="http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900|Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="{{ '/assets/stylesheets/bootstrap.min.css' | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css">
+  <link rel="stylesheet" href="{{ '/assets/stylesheets/main.css' | prepend: site.baseurl }}">
+
+  <!-- Javascript -->
+  <script src="{{ '/assets/javascripts/modernizr-2.7.1.js' | prepend: site.baseurl }}"></script>
 </head>

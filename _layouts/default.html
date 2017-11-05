@@ -5,20 +5,11 @@
 
   <body>
 
-    <div id="wrap">
+    {% include nav.html %}
 
-      {% include header.html %}
+    {{ content }}
 
-      <div id="container">
-        <main>
-          {{ content }}
-        </main>
-      </div>
-
-    </div>
-
-    {% include script.html %}
+    {% include footer.html %}
 
   </body>
-
 </html>

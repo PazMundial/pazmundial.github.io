@@ -11,7 +11,22 @@ description: > # Objetivos de la maratón es hablar de temas apoyando la paz mun
   Habrá una multitud de temas y dar la oportunidad a las personas de que se sumen a las tertulias abiertas y que todos expresen su parecer.
   168 horas donde pueden entrar 10 personas simultáneamente e ir rotando para que todos puedan dar su opinión y seguir difundiendo esta iniciativa de paz.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://pazmundial.github.io" # the base hostname & protocol for your site
+url: "https://pazmundial.github.io" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
+
+plugins:
+  - jekyll-coffeescript
+  - jemoji
+
+sass:
+  style: compressed
+
+# Keys
+google_api_key: "AIzaSyAsIqvwDS0wXbFJyHJR-FUYiH4Jw8We02Q"
+spreadsheet_id: "1hnFtqIdo73gMNNR7Lhiey7Jrkml28F5GnW4RKMkMN1o"
+
+# Social media links
+facebook_link: "https://www.facebook.com/SitDownPorLaPazMundial"
+youtube_link: "https://www.youtube.com/channel/UCfD4GnjiRM557agV_lAqI1Q"
