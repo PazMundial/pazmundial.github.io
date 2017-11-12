@@ -25,8 +25,20 @@ sass:
 
 # Keys
 google_api_key: "AIzaSyAsIqvwDS0wXbFJyHJR-FUYiH4Jw8We02Q"
-spreadsheet_id: "1hnFtqIdo73gMNNR7Lhiey7Jrkml28F5GnW4RKMkMN1o"
 
 # Social media links
 facebook_link: "https://www.facebook.com/SitDownPorLaPazMundial"
 youtube_link: "https://www.youtube.com/channel/UCfD4GnjiRM557agV_lAqI1Q"
+
+# Marathons
+maraton:
+  spreadsheet_id: "1hnFtqIdo73gMNNR7Lhiey7Jrkml28F5GnW4RKMkMN1o"
+  y2018:
+    sheetId: "Maraton2018"
+    cells: "B4:I243"
+  y2017:
+    sheetId: "Maraton2017"
+    cells: "B4:I267"
+  y2016:
+    sheetId: "Maraton2016"
+    cells: "B4:I267"

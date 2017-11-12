@@ -47,22 +47,19 @@ loadGoogleClient = (google_api_key) ->
 # Method to load data of a google spreadsheets.
 # NOTE: Make sure the google client is loaded before calling this method.
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
-loadDataOfGoogleSpreadsheets = (spreadsheetId) ->
+loadDataOfGoogleSpreadsheets = (spreadsheetId, sheetId, cells) ->
   gapi.client.sheets.spreadsheets.values.batchGet(
     'spreadsheetId': spreadsheetId
     'majorDimension': 'ROWS'
-    'ranges': [ 'B4:I243' ]
+    'ranges': [ sheetId + '!' + cells ]
     'valueRenderOption': 'FORMATTED_VALUE'
   ).then ((response) ->
-    # console.log 'Response', response
-    current_range = response.result.valueRanges.filter (range) ->
-      range.range == 'Maraton2018!B4:I243'
-
     $carusel = $('.owl-carousel')
     event_date_cet = ''
+    values = response.result.valueRanges[0].values
 
     console.log 'Filling data...'
-    current_range[0].values.forEach (row) ->
+    values.forEach (row) ->
       event_date_cet = row[0] if row[0] != ''
       event_time_cet = row[1]
       host_name = row[3]
@@ -197,11 +194,12 @@ $(document).ready ->
   # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
   # Load data from Spreadsheet and fill it.
   # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
-  gapi.load 'client',
-    callback: ->
-      # Handle gapi.client initialization.
-      loadGoogleClient("{{ site.google_api_key }}").then ->
-        loadDataOfGoogleSpreadsheets("{{ site.spreadsheet_id }}")
-      return
+  if spreadsheetId? && sheetId? && cells?
+    gapi.load 'client',
+      callback: ->
+        # Handle gapi.client initialization.
+        loadGoogleClient("{{ site.google_api_key }}").then ->
+          loadDataOfGoogleSpreadsheets(spreadsheetId, sheetId, cells)
+        return
 
   return
