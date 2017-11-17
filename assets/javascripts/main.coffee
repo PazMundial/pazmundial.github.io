@@ -10,10 +10,17 @@ $.urlParam = (name, fallback = null) ->
   decodeURIComponent(results[1]) or fallback
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# Method to get TimeZone from cookies or params
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+$.getTz = (name, fallback = null) ->
+  return Cookies.get('tz') if Cookies.get('tz')?
+  $.urlParam(name, fallback)
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Method to get value from params
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 autoselectTz = ->
-  option_to_select = $.urlParam('tz', 'Europe/Madrid')
+  option_to_select = $.getTz('tz', 'Europe/Madrid')
   $('#tz').val(option_to_select).change();
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
@@ -25,6 +32,7 @@ on_change_submit = ->
     e.stopPropagation()
 
     $this = $(this)
+    Cookies.set('tz', $this.closest('#tz').val())
     $form = $this.closest 'form'
     $form.submit()
     return
