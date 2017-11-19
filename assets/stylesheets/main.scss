@@ -301,6 +301,10 @@ header {
   right: 0;
   margin-left: 0px;
   margin-bottom: 12%;
+
+  h1, .lead {
+    text-shadow: #4c367c 0px 0px 3px;
+  }
 }
 
 .signin {
@@ -376,6 +380,14 @@ header {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+
+  .lead {
+    font-weight: bold;
+  }
+
+  p {
+    color: aliceblue;
+  }
 }
 
 hr.line {
