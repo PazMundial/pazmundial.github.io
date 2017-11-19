@@ -73,8 +73,8 @@ loadDataOfGoogleSpreadsheets = (spreadsheetId, sheetId, cells) ->
       host_name = row[3]
       return unless host_name?
 
-      youtube_broadcast_id = row[7]
-      return unless youtube_broadcast_id?
+      youtube_video_link = row[7]
+      return unless youtube_video_link?
 
       event_datetime_formated =
         moment(event_date_cet + ' ' + event_time_cet + ' +1:00', 'DD/MM/YYYY HH:mm Z', 'es')
@@ -118,7 +118,7 @@ loadDataOfGoogleSpreadsheets = (spreadsheetId, sheetId, cells) ->
           </div>
           <div class="row margin-20">
             <div class="col-sm-12">
-              <a class="owl-video" href="https://www.youtube.com/watch?v=#{youtube_broadcast_id}"></a>
+              <a class="owl-video" href="#{youtube_video_link}"></a>
             </div>
           </div>
           #{
