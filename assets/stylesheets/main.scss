@@ -725,3 +725,11 @@ footer {
 }
 
 @import "mixin", "owl-theme";
+
+.owl-theme .owl-nav [class*='owl-'] {
+  color: rgba(0, 0, 0, 0.7);
+  background: #6fcbcf;
+  padding: 12px 21px;
+  font-size: 16px;
+  font-weight: bold;
+}
