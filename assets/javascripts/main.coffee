@@ -156,6 +156,78 @@ loadDataOfGoogleSpreadsheets = (spreadsheetId, sheetId, cells) ->
     console.error 'Execute error', error
     return
 
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# Method to load data of a google spreadsheets.
+# NOTE: Make sure the google client is loaded before calling this method.
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+loadAndFillVideosForPeaceWidget = (spreadsheetId, sheetId, cells) ->
+  gapi.client.sheets.spreadsheets.values.batchGet(
+    'spreadsheetId': spreadsheetId
+    'majorDimension': 'ROWS'
+    'ranges': [ sheetId + '!' + cells ]
+    'valueRenderOption': 'FORMATTED_VALUE'
+  ).then ((response) ->
+    $carusel = $('.owl-carousel')
+    event_date_cet = ''
+    values = response.result.valueRanges[0].values
+
+    console.log 'Filling data...'
+    values.reverse()
+    values.forEach (row) ->
+      event_datetime_cet = row[0]
+      youtube_video_link = row[1]
+      host_name          = row[2]
+      valid              = row[3]
+
+      return unless valid == 'si'
+      return unless youtube_video_link?
+
+      event_datetime_formated =
+        moment(event_datetime_cet + ' +1:00', 'MM/DD/YYYY HH:mm Z', 'es')
+          .tz($.urlParam('tz', 'Europe/Madrid'))
+          .format('DD/MM/YYYY HH:mm z')
+
+      $carusel.append(
+        """
+        <div class="item item-video event">
+          <div class="row event-details margin-10">
+            <div class="col-sm-6 text-left">
+              <span class="event-host-name">Dirigido por #{host_name}</span>
+            </div>
+            <div class="col-sm-6 text-right">
+              <span class="event-time-cet">#{event_datetime_formated}</span>
+            </div>
+          </div>
+          <div class="row margin-20">
+            <div class="col-sm-12">
+              <a class="owl-video" href="#{youtube_video_link}"></a>
+            </div>
+          </div>
+        </div>
+        """
+      )
+      return
+
+
+    console.log '...load owl carousel'
+    $('.owl-carousel').owlCarousel
+      center: true
+      items: 1
+      lazyLoad: true
+      loop: false
+      # autoWidth: true
+      margin: 0
+      video: true
+      videoHeight: 480
+      nav: true
+      navText: ['anterior', 'siguente']
+      dots: false
+      responsiveClass: true
+    return
+  ), (error) ->
+    console.error 'Execute error', error
+    return
+
 $(document).ready ->
 
   # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
@@ -202,12 +274,20 @@ $(document).ready ->
   # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
   # Load data from Spreadsheet and fill it.
   # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
-  if spreadsheetId? && sheetId? && cells?
+  if spreadsheetId? && sheetId? && cells? && videos_for_maraton?
     gapi.load 'client',
       callback: ->
         # Handle gapi.client initialization.
         loadGoogleClient("{{ site.google_api_key }}").then ->
           loadDataOfGoogleSpreadsheets(spreadsheetId, sheetId, cells)
+        return
+
+  if spreadsheetId? && sheetId? && cells? && videos_for_the_peace?
+    gapi.load 'client',
+      callback: ->
+        # Handle gapi.client initialization.
+        loadGoogleClient("{{ site.google_api_key }}").then ->
+          loadAndFillVideosForPeaceWidget(spreadsheetId, sheetId, cells)
         return
 
   return

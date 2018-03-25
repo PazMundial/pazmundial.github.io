@@ -6,7 +6,7 @@ layout: default
 
 {% include widget-scroll.html %}
 
-{% include widget-streaming.html %}
+{% include widget-streaming-maraton.html %}
 
 {% include widget-radio.html %}
 
@@ -16,4 +16,5 @@ layout: default
   var spreadsheetId = "{{ site.maraton.spreadsheet_id }}";
   var sheetId = "{{ site.maraton.y2016.sheetId }}";
   var cells = "{{ site.maraton.y2016.cells }}";
+  var videos_for_maraton = true;
 </script>

@@ -42,3 +42,9 @@ maraton:
   y2016:
     sheetId: "Maraton2016"
     cells: "B4:I267"
+
+collect_video:
+  spreadsheet_id: "1Nr6h5T8VdPbRwk5v5ehSM4PnQif7l6E7oigKZJwJpDQ"
+  y2018:
+    sheetId: "'Form Responses 1'"
+    cells: "A2:D1000"
